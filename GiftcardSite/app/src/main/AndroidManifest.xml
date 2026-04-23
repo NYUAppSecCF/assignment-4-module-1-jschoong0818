@@ -4,7 +4,6 @@
 
 
     <!-- Fix by Jin-Shen: Removed unnecessary permissions -->
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- Fix by Jin-Shen: Exported="false" on all activities except MainActivity and removed all external intent-filters from non-launcher activities -->
